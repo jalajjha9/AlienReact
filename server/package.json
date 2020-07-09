@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,8 +13,10 @@
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "http-errors": "^1.8.0",
     "lodash": "^4.17.19",
     "mongoose": "^5.9.22",
+    "mysql": "^2.18.1",
     "nodemon": "^2.0.4"
   }
 }
